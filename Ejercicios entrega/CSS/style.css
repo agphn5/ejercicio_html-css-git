@@ -1,0 +1,265 @@
+/* Por defecto */
+*{
+    margin: 0;
+}
+
+/* BODY */
+body {
+    background-color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Menú de navegación */
+.menu {
+    background: rgb(29, 29, 29);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: 15%;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 2%;
+    
+}
+
+.textmenu{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.menu li a:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+
+/* Sección artículos */
+article {
+    background-color: white;
+    height: auto;
+    width: 85%;
+    border: none;
+    box-shadow: 3px 3px 3px 3px rgba(211, 211, 211, 0.425);
+    border-radius: 10px;
+
+    margin: 25px;
+    
+}
+
+.articulos {
+display: grid;
+grid-template-columns: 50% 50%;
+margin-right: 5%;
+margin-left: 5%;
+}
+
+article img {
+    border-radius: 10px;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+
+}
+
+article p{
+    text-align: center;
+}
+
+article h2{
+    text-align: center;
+    margin: 10px;
+}
+
+
+article button {
+    background-color: whitesmoke;
+    border: 1px solid white;
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+   
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+   
+}
+
+/* Pie de página */
+footer{
+    background: rgb(29, 29, 29);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: 15%;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 2%;
+}
+
+footer p {
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    display: block;
+}
+
+
+/* FORMULARIO DE CONTACTO */
+
+.logogh {
+   
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 80%;
+    
+}
+
+/* Esto lo he cogido de un ejemplo de Internet y lo he modificado  para que sea resposive y
+cuadre con el diseño */
+
+.contact_form {
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    border: none;
+    box-shadow: 3px 3px 3px 3px rgba(211, 211, 211, 0.425);
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+div h1{
+    text-align: center;
+    margin: 25px;
+   
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 70%; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: grey; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 70%; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:grey; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgb(223, 221, 221); 
+    border-color:white; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 60%;   
+    cursor: pointer;
+  }
+
+  button:hover{
+      color: grey;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: grey; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+    margin-bottom: 10px;
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 5%; 
+    color: grey;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 5%;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid grey
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid grey;}
